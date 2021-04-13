@@ -13,3 +13,6 @@ exec powershell.exe -NoProfile -ExecutionPolicy Bypass -File $scriptDir -path $(
 The example above runs a powershell script that's located on ```<repo folder>/ci/hooks```. If yours is in a different path, feel free to change it.
 
 In all my tests, PWD returned the repo path. I'm not sure if this will happen if it's a bare repo.
+
+# This repo url
+https://github.com/brenordv/githook-ps-check-forbidden-texts
