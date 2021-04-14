@@ -2,6 +2,10 @@
 A simple script to check all .TS files for pre-configured strings.
 It's pre-configured to check for the word ```debugger``` and ```console.*```. 
 
+## Notes
+This script was made to work with Angular (*.ts) files, but this can be easly changed.
+
+
 # How to use
 Add the following code to the ```pre-push``` hook:
 ```shell
